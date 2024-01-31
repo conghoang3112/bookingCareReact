@@ -90,9 +90,20 @@ class UserManage extends Component {
     }
 
     doEditUser = async (user) => {
-        console.log('data: ', user);
-        let response = await editUserService(user);
-        console.log('click save user: ', response)
+        try {
+            let response = await editUserService(user);
+            if (response && response.errCode === 0) {
+                this.setState({
+                    isOpenModalEditUser: false
+                })
+                await this.getAllUserFromReact();
+            } else {
+                alert(response.errCode);
+            }
+        } catch (e) {
+            console.log(e);
+        }
+
     }
 
     /** Life cycle
