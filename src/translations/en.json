@@ -51,5 +51,12 @@
         "save": "Save",
         "edit": "Edit user",
         "image": "Image"
+    },
+    "homepage": {
+        "out-standing-doctor": "Outstanding doctor",
+        "more-infor": "More infor",
+        "popular-specialties": "Popular specialties",
+        "outstanding-medical-facilities": "Outstanding medical facilities",
+        "handbook": "Handbook"
     }
 }

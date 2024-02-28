@@ -51,5 +51,12 @@
         "save": "Lưu",
         "edit": "Lưu thay đổi",
         "image": "Hình Ảnh"
+    },
+    "homepage": {
+        "out-standing-doctor": "Bác sĩ nổi bật tuần qua",
+        "more-infor": "Xem thêm",
+        "popular-specialties": "Chuyên khoa phổ biến",
+        "outstanding-medical-facilities": "Cơ sở y tế nổi bật",
+        "handbook": "Cẩm nang"
     }
 }

@@ -16,8 +16,8 @@ class HandBook extends Component {
             <div className='section-share section-hand-book'>
                 <div className='section-container'>
                     <div className='section-header'>
-                        <span className='title-section'>Cẩm nang</span>
-                        <button className='btn-section'>Xem thêm</button>
+                        <span className='title-section'><FormattedMessage id="homepage.handbook" /></span>
+                        <button className='btn-section'><FormattedMessage id="homepage.more-infor" /></button>
                     </div>
 
                     <div className='section-body'>
